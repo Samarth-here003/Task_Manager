@@ -1,5 +1,5 @@
-# Task_Manager_Hackathon
-# Project management system using MERN stack (Mongodb, Express.js, React.js and Node.js) 
+# Task_Manager
+# Task Manager system using MERN stack (Mongodb, Express.js, React.js and Node.js) 
 
 We have created a Project Management Tool using MERN where we can work upon multiple projects simultaneously and effortlessly.
 We can add To-Do Section and write all the relevant description of our projects.
