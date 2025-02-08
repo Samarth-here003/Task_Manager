@@ -1,0 +1,121 @@
+.signup_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0; /* Light grey background */
+}
+
+.signup_form_container {
+    display: flex;
+    width: 800px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.left {
+    width: 50%;
+    padding: 40px;
+    background-color: #5297e1; /* Blue background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h1 {
+    margin-bottom: 20px;
+}
+
+.white_btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff; /* Blue text */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.white_btn:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white;
+}
+
+.right {
+    width: 50%;
+    padding: 40px;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+}
+
+.error_msg {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+.blue_btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.blue_btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.blue_btn:active {
+    background-color: #004494; /* Even darker blue on click */
+    transform: scale(0.98); /* Slightly scale down on click */
+}
+.green_btn {
+    padding: 10px 20px;
+    background-color: #57b2ef; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.green_btn:hover {
+    background-color: #81c7ea; /* Darker green on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.green_btn:active {
+    background-color: #bcdaee; /* Even darker green on click */
+    transform: scale(0.98); /* Slightly scale down on click */
+}
